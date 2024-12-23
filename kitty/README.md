@@ -11,6 +11,9 @@ curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
 
 # 安装 imagemagick
 brew install imagemagick
+
+# 选择主题（以 VSCode_Dark 为例）
+kitten themes --dump-theme VSCode_Dark > ~/.config/kitty/VSCode_Dark.conf
 ```
 
 ## 配置
