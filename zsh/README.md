@@ -23,4 +23,4 @@ git clone --depth=1 https://github.com/zsh-users/zsh-syntax-highlighting ${ZSH_C
 ```bash
 # 根据需要修改 .zshrc 文件
 cp .zshrc ~/
-```··
+```
