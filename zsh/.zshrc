@@ -110,6 +110,10 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# 绑定 home 和 end 键
+bindkey "^[[H" beginning-of-line
+bindkey "^[[F" end-of-line
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
